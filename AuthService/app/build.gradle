@@ -23,7 +23,7 @@ ext {
 }
 
 dependencies {
-    // Core Spring Boot dependencies.
+    // Core Spring Boot dependencies
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter'
@@ -52,12 +52,11 @@ dependencies {
     // MySQL Connector
     implementation 'mysql:mysql-connector-java:8.0.33'
 
+    // Use JUnit test framework
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
 
-    // Use JUnit test framework.
-    testImplementation libs.junit
-
-    // This dependency is used by the application.
-    implementation libs.guava
+    // Guava (Latest)
+    implementation 'com.google.guava:guava:32.1.2-jre'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
