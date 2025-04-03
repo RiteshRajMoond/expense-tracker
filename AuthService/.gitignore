@@ -1,0 +1,71 @@
+# Gradle-specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.out
+*.tmp
+*.hprof
+
+# IDE-specific files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Dependency directories
+node_modules/
+target/
+
+# Spring Boot-specific files
+*.db
+*.pid
+*.lock
+*.env
+
+# Test reports
+/test-results/
+*.xml
+*.html
+*.json
+
+# Sensitive files
+.env
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+
+# Generated files
+*.generated
